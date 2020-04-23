@@ -1,0 +1,4 @@
+managefactor.h2.console.enabled: true
+managefactor.datasource.url: "jdbc:h2:mem:currencyDb;DB_CLOSE_DELAY=-1"
+managefactor.datasource.username: sa
+managefactor.datasource.password: 
