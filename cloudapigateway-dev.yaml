@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: managefactor
+        uri: lb://managefactor
+        predicates:
+        - Path=/factor/**
